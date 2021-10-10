@@ -38,6 +38,7 @@ Three hidden layers with 100, 60, and 8 nodes using leaky relu, sigmoid, and sig
 Yes
 
 * What steps did you take to try and increase model performance?  
+
             1. increased the number of nodes on two layers
             2. added a third inner layer of neural net
             3. lowered the number of nodes
