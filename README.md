@@ -2,11 +2,9 @@
 
 ## Overview
 
-The purpose of this analysis is to determine if an applicant will be succesful if funded by Alphabet Soup.
+The purpose of this analysis is to determine if a charity applicant will be succesful in their inititives if funded by Alphabet Soup.
 
 ## Results
-
-Using bulleted lists and images to support your answers, address the following questions.
 
 ### Data Preprocessing
 
@@ -27,12 +25,14 @@ The features of my model are:
     ASK_AMT
 
 * What variable(s) are neither targets nor features, and should be removed from the input data?  
-EIN was neither a variable nor a feature and was removed from the input data
+EIN was neither a variable nor a feature and was removed from the input data.
 
 ### Compiling, Training, and Evaluating the Model
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?  
 Three hidden layers with 100, 60, and 8 nodes using leaky relu, sigmoid, and sigmoid activation. Wanted a great number because of the large len(X) size to start and then work it's way to smaller classifications.
+
+![model structure](model_setup.PNG)
 
 * Were you able to achieve the target model performance?  
 Yes
@@ -49,4 +49,4 @@ Yes
 
 ## Summary
 
-The deep learning model was able to help predict if an organization would be successful if funded by Alphabet Soup.  A Random FOrest Classifier could also work as we are determining between two states with several features contributing to the results.
+The deep learning model was able to help predict if an organization would be successful if funded by Alphabet Soup.  A Random Forest Classifier could also work as we are determining between two states with several features contributing to the results.
